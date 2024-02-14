@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+.logo {
+    width: 75px;
+    height: auto;
+}
+.navbar {
+    background-color: #1b928e;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1b928e;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {  
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+#resort, #experiencia {
+    background-color: #e9fbf9;
+}
+
+.text-colored {
+    color: #1b928e;
+}
+
+.nav-acomodacao .nav-link.active, 
+#reserva button  {
+    background-color: #1b928e;
+    color: #fff;
+}
+
+.nav-acomodacao .nav-link:hover {
+    color:#1b928e;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media  (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+
+}

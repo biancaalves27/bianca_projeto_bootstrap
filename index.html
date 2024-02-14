@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho"><!-- navbar navbar-expand-lg para utilizar o menu somente em tela cheia e aparecer o menu hambergue no tela de celular-->
+        <div class="container">
+            <img src="./imagem/logo.png" class="logo"/>
+            <h1 class="navbar-brand section-title m-0">
+                Resort</h1> <!--m-0 é a margim-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao"><!--data-bs-toggle="collapse" data-bs-target="#menu-navegacao é para os itens do menu apareça no menu haburgue-->
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao"> <!--navbar-collapse collapse para os elementos do menu não aparecer quando estiver em tela de celular justify-content-end foi aplicado para menu ficaer distante do logo-->
+                <ul class="nav nav-pills d-block d-md-flex"><!-- foi dicionado o d-block para os itens do menu fique abaixo do outro foi adicionado o d-md-flex para o menu ficar um ao lado do outro quando estiver em tela media-->
+                    <li class="nav-item fw-bold">
+                        <a href="#resort" class="nav-link">
+                            <i class="bi bi-sun"></i><!--i é o icone me-1 é o espaço inserido entre o icone e o texto-->
+                            O Resort</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#acomodações" class="nav-link">
+                                <i class="bi bi-key me-1"></i>
+                                Acomodações</a>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a href="#experiencia" class="nav-link">
+                                    <i class="bi bi-card-text me-1"></i>
+                                    Experiência</a>
+                            </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#reserva" class="nav-link">
+                            <i class="bi bi-luggage"></i>
+                            Faça sua reserva</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="resort">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel"> <!--foi criado o id para o funcionamento dos botões-->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./imagem/slides/slide1.jpg" alt="Foto do espaço interno do restaurante">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./imagem/slides/slide2.jpg" alt="Duas taças de vinho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./imagem/slides/slide3.jpg" alt="Uma mesa com comida">
+                </div>
+            </div>
+            <!-- abaixo será criado os botões do carousel-->
+            <button  class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">    
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next" >   
+            <span class="carousel-control-next-icon"></span>
+        </button> 
+        <!--abaixo temos os indicadores-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./imagem/Resort.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title mb-3">Bem-vindo ao paraíso tropical  <span class="text-colored">Resort Club!</span></h2>
+                    
+                        <p>
+                        Localizado em uma ilha paradisíaca, banhada por águas cristalinas e cercada por uma vegetação exuberante, o refúgio perfeito para quem busca relaxamento, aventura e luxo em meio à natureza deslumbrante.
+                        </p>
+                        <p>
+                            Nossa missão é proporcionar aos nossos hóspedes uma experiência inigualável, onde cada momento seja marcado pela tranquilidade e pela beleza do ambiente. Desde o momento em que você pisa em nosso resort, será envolvido pela atmosfera acolhedora e pelos serviços de alta qualidade que oferecemos.
+                        </p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-7 mt-3 mt-md-3">
+                        
+                        <p>
+                            A felicidade dos nossos hóspedes é a nossa prioridade número um. Deixe-nos cuidar de você enquanto você se entrega à serenidade deste paraíso tropical. Venha nos visitar e descubra por que somos considerados um dos destinos mais exclusivos do mundo. Sua jornada rumo ao relaxamento e à renovação começa aqui. Seja bem-vindo ao Resort Club, onde os sonhos se tornam realidade.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, doloremque expedita rem minima saepe corporis ullam nulla nam dolor fugit quo mollitia fuga atque omnis eveniet libero laudantium corrupti consectetur!
+                        </p>
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./imagem/Resort.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acomodações" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center text-colored mb-5">
+                    Acomodações
+                </h2>
+            </div>
+        <div class="row">
+            <aside class="col-md-6  col-sm-2">
+                <nav class="nav nav-pills text-center nav-acomodacao "><!--nav-pills é para que as opões dentro do nav fique com aparença de botões com isso os elementos irão ficar um a lado do outro foi adicionado o flex-column para os elementos ficarem abaixo do outro -->
+                    <button type="button" data-bs-toggle="tab"data-bs-target="#apartamento" class="fw-bold text-start nav-link text-colored active">Apartamento</button>
+                    <button type="button" data-bs-toggle="tab"data-bs-target="#apartamento-familia" class="fw-bold text-start nav-link text-colored">Apartamento Familía</button>
+                    <button type="button" data-bs-toggle="tab"data-bs-target="#suite" class="fw-bold text-start nav-link text-colored">Suíte</button>                 
+                    <button type="button" data-bs-toggle="tab"data-bs-target="#suite-luxo" class="fw-bold text-start nav-link text-colored">Suíte luxo</button>
+
+                </nav>
+            </aside>
+            <div class="col-md-10 pt-5 pb-5">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="apartamento">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/aparamento/foto1.jpg" alt="quarto"/>
+                                <h5 class="text-colored fw-bold mt-2">Quarto </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/aparamento/foto2.jpg" alt="toalete"/>
+                                <h5 class="text-colored fw-bold mt-2">Toalete </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>                                                      
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="apartamento-familia">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/familiar/foto1.jpg" alt="quarto"/>
+                                <h5 class="text-colored fw-bold mt-2">Quarto </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/familiar/foto2.jpg" alt="toalete"/>
+                                <h5 class="text-colored fw-bold mt-2">Toalete </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="suite">
+                        <div class="row">
+                            
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/suite/foto1.jpg" alt="suite"/>
+                                <h5 class="text-colored fw-bold mt-2">Suíte </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/suite/foto2.jpg" alt="suite-toalete"/>
+                                <h5 class="text-colored fw-bold mt-2">Toalete</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>                                                                
+                        </div>
+                    </div>                   
+                    <div class="tab-pane" id="suite-luxo">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/suite-luxo/Suite.jpg" alt="Suite luxo"/>
+                                <h5 class="text-colored fw-bold mt-2">Suíte luxo</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/suite-luxo/Toalete.jpg" alt="toalete"/>
+                                <h5 class="text-colored fw-bold mt-2">Toalete </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./imagem/acomodacoes/suite-luxo/varanda.jpg" alt="toalete"/>
+                                <h5 class="text-colored fw-bold mt-2">Varanda</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>                                                                                                                                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="experiencia" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center text-colored"> Experiência</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./imagem/gastronomia/foto1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        Jantar Romântico
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores aliquam voluptate quidem quos quibusdam facilis nisi voluptates sint et necessitatibus, tenetur minus recusandae doloremque sapiente, totam itaque repellat possimus.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagem/gastronomia/foto2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">                     
+                        Café da manhã na piscina
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores aliquam voluptate quidem quos quibusdam facilis nisi voluptates sint et necessitatibus, tenetur minus recusandae doloremque sapiente, totam itaque repellat possimus.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagem/gastronomia/foto3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        Desgustação de vinho
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores aliquam voluptate quidem quos quibusdam facilis nisi voluptates sint et necessitatibus, tenetur minus recusandae doloremque sapiente, totam itaque repellat possimus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reserva" class="pt-5 pb-5" >
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">
+                    Faça sua <span class="text-colored">reserva</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold">Enviar</button>
+                        
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                        
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
