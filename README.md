@@ -15,5 +15,7 @@ Bootstrap Icons - Conjunto de ícones em formato de fonte.
 
 ## Tecnologias Utilizadas
 HTML5: Para a estruturação da página.
+
 CSS3: Para o estilo personalizado da página.
+
 Bootstrap 5: Framework CSS para facilitar o design responsivo e a criação de componentes como o menu e o carousel.
