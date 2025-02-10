@@ -10,6 +10,7 @@ Reserva: Seção de informações sobre como fazer uma reserva no resort.
 
 ## Dependências
 Bootstrap 5 - Framework CSS para design responsivo.
+
 Bootstrap Icons - Conjunto de ícones em formato de fonte.
 
 ## Tecnologias Utilizadas
