@@ -1,4 +1,4 @@
-## Resort Club - Página Institucional
+# Resort Club - Página Institucional
 Este é um projeto de página institucional para um resort tropical, projetado com HTML, CSS e Bootstrap. O site proporciona aos visitantes uma experiência virtual que mostra as acomodações, o resort, as experiências oferecidas e como realizar reservas.
 
 ## Funcionalidades
